@@ -1,8 +1,7 @@
 import "./App.css";
 import donutBgImg from "./assets/img/donut-bg.jpg";
-import Cards from "./components/Cards";
-import Navbar from "./components/Navbar";
-import Slider from "./components/Slider";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
 
 function App() {
   // const bgimg = {
@@ -26,14 +25,7 @@ function App() {
         <div className="main-container">
           <div className="container_fixed">
             <Navbar />
-            <Slider />
-            <div className="allCards">
-              <Cards img={`https://pngimg.com/uploads/donut/donut_PNG50.png`} />
-              <Cards
-                img={`https://www.downloadclipart.net/large/donuts-png-pic.png`}
-              />
-              <Cards img={`https://pngimg.com/uploads/donut/donut_PNG6.png`} />
-            </div>
+            <Home />
           </div>
         </div>
       </div>

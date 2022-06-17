@@ -1,5 +1,6 @@
 import React from "react";
-import donutLogo from "../assets/img/donut-logo.png";
+import donutLogo from "../../assets/img/donut-logo.png";
+import "./navbar.css";
 
 const Navbar = () => {
   return (

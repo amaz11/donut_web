@@ -1,5 +1,6 @@
 import React from "react";
-import banner from "../assets/img/donut-banner.png";
+import banner from "../../assets/img/donut-banner.png";
+import "./banner.css";
 
 const Slider = () => {
   return (
